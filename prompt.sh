@@ -30,7 +30,7 @@ function set_ps1_git_prompt() {
 	local formatted_branch_name="$esc_text_color_cyan$branch_name"
 
 
-	local prompt="\n$formatted_current_user $formatted_system_architecture $formatted_current_path$formatted_branch_name$esc_sgr_clear\n$ "
+	local prompt="\n$formatted_current_user $formatted_system_architecture $formatted_current_path$formatted_branch_name$esc_sgr_clear"$'\n$ '
 
 	export PS1="$set_window_title$prompt"
 }
