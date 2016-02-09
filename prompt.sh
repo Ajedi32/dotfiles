@@ -13,7 +13,7 @@ function set_ps1_git_prompt() {
 	local system_architecture="$MSYSTEM"
 	local current_path="\w"
 	local current_user="$username@$system_name"
-	local branch_name=$(__git_ps1)
+	local branch_name='$(__git_ps1)'
 
 	local set_window_title=$(esc_set_window_title "$window_title")
 
