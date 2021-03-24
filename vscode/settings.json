@@ -1,0 +1,21 @@
+{
+    // Default file settings
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    // Don't hide anything in file explorer; it might be important
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false
+    },
+
+    "editor.renderWhitespace": "boundary",
+    "debug.node.autoAttach": "on",
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false
+}
