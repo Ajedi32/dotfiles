@@ -1,0 +1,2 @@
+[core]
+        editor = "f() { /mnt/c/Program\\ Files/Notepad++/notepad++.exe -multiInst -notabbar -nosession \"$(wslpath -w $1)\"; }; f"
