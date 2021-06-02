@@ -10,7 +10,6 @@ print_help() {
 }
 
 . "$script_dir/lib/git_alias_cd.sh"
-pwd
 . "$script_dir/lib/parse_git_config_file_options.sh"
 
 for script in "$@"; do
