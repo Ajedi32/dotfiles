@@ -14,6 +14,9 @@
         "**/.DS_Store": false
     },
 
+    // Windows explorer style keybindings for multi-select
+    "editor.multiCursorModifier": "ctrlCmd",
+
     "editor.renderWhitespace": "boundary",
     "debug.node.autoAttach": "on",
     "explorer.confirmDelete": false,
