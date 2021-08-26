@@ -7,3 +7,4 @@ Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 # Aliases
 Set-Alias -Name ll -Value Get-ChildItem
+Set-Alias -Name which -Value Get-Command
