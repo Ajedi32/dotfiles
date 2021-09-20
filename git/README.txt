@@ -9,3 +9,7 @@ scripts/unalias-script.sh scripts/* # Remove git aliases for all scripts in the 
 
 git config --global alias.$alias_name "!$full_path_to_script" # Create an alias with a custom name for a script
 git config --global --unset alias.$alias_name # Remove an alias with a custom name
+
+# Install global git ignores
+mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/git/"
+cat ignore >> "${XDG_CONFIG_HOME:-$HOME/.config}/git/ignore"
