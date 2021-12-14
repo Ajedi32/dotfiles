@@ -1,0 +1,3 @@
+Install winget. See https://docs.microsoft.com/en-us/windows/package-manager/winget/
+
+First, download the "App Installer" package from Microsoft from the Microsoft Store. This package includes winget.
