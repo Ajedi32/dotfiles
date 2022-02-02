@@ -13,7 +13,7 @@ print_help() {
 . "$script_dir/lib/parse_git_config_file_options.sh"
 
 for script in "$@"; do
-  script="$(realpath --no-symlinks $script)"
-  alias_name="$(basename $script | cut --fields=1 --delimiter=.)"
+  script="$(realpath --no-symlinks "$script")"
+  alias_name="$(basename "$script" | cut --fields=1 --delimiter=.)"
   git config "$file_option" "alias.$alias_name" "!$script"
 done
