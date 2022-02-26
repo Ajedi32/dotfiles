@@ -1,0 +1,1 @@
+explorer "%AppData%\Code\User"
