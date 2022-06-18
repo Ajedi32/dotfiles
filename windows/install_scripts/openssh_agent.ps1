@@ -7,3 +7,6 @@ Start-Service ssh-agent
 
 # This should return a status of Running
 Get-Service ssh-agent
+
+# Optional: Start ssh-agent automatically on boot
+Get-Service ssh-agent | Set-Service -StartupType Automatic
